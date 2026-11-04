@@ -1,0 +1,24 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+    mask: var(--icon) center / contain no-repeat;
+    -webkit-mask: var(--icon) center / contain no-repeat;
+}
+
+.icon-github {
+    --icon: url("/public/img/icons/github.svg");
+}
+
+.icon-git {
+    --icon: url("/public/img/icons/git.svg");
+}
+
+.icon-reddit {
+    --icon: url("/public/img/icons/reddit.svg");
+}
+
+.icon-linkedin {
+    --icon: url("/public/img/icons/linkedin.svg");
+}
